@@ -8,7 +8,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 #Setup & Authentication
-GOOGLE_API_KEY = "AIzaSyDDV2rsBI9KE31RcD89SK-SIFlce-K-2OM"
+GOOGLE_API_KEY = ""
 
 # Configure Gemini
 client = genai.configure(api_key=GOOGLE_API_KEY)
